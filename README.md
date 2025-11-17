@@ -32,7 +32,7 @@ Body: {"name": "newTaskName", "description": "newTaskDescription"}
 5. Move a Task (POST)
 
   POST http://localhost:8080/api/lists/fromList/tasks/taskName/move  
-Body: {"toList": "In Progress"}
+Body: {"toList": "listName"}
 
 6. Delete a Task (DELETE)
 
