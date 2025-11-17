@@ -1,3 +1,5 @@
+-- Simple REST service --
+
 Open the project in an IDE (i used Intellij) and run it.
 
 data is stored locally in a txt file titled: "saved.txt"
