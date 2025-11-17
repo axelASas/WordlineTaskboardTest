@@ -17,7 +17,7 @@ Click "Send"
 
 POST http://localhost:8080/api/lists
 Body → raw → JSON
-Enter: {"name": "listName"}
+Body: {"name": "listName"}
 
 3. Add a Task (POST)
 
