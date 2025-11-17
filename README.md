@@ -21,17 +21,17 @@ Body: {"name": "listName"}
 
 3. Add a Task (POST)
 
-  POST http://localhost:8080/api/lists/listName/tasks
+  POST http://localhost:8080/api/lists/listName/tasks  
 Body: {"name": "taskName", "description": "taskDescription"}
 
 4. Update a Task (PUT)
 
-  PUT http://localhost:8080/api/lists/listName/tasks/taskName
+  PUT http://localhost:8080/api/lists/listName/tasks/taskName  
 Body: {"name": "newTaskName", "description": "newTaskDescription"}
 
 5. Move a Task (POST)
 
-  POST http://localhost:8080/api/lists/fromList/tasks/taskName/move
+  POST http://localhost:8080/api/lists/fromList/tasks/taskName/move  
 Body: {"toList": "In Progress"}
 
 6. Delete a Task (DELETE)
